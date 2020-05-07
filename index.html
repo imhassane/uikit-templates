@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="uk-flex-between uk-padding-small" uk-grid="">
+            <div class="uk-width-1-1@s uk-width-1-4@m">
+                <h3 class="uk-text-bold">Starter theme</h3>
+            </div>
+            <div class="uk-child-with-1-4@m" uk-grid="">
+                <p><a class="" href="#modal-full" uk-search-icon uk-toggle></a></p>
+                <p><a href="https://github.com/imhassane" uk-icon="icon: github"></a></p>
+                <p><a href="https://twitter.com/imhassane2" uk-icon="icon: twitter"></a></p>
+                <p><a href="https://instagram.com/imhassane" uk-icon="icon: instagram"></a></p>
+                <p><img width="60" height="50" src="./img/profile.webp" alt="Profile picture"></p>
+            </div>
+        </div>
+        <hr />
+        <div style="margin: auto;" class="uk-width-1-2@m uk-width-1-1@s uk-margin-small uk-flex-center">
+            <p class="uk-button uk-button-small">Animals</p>
+            <p class="uk-button uk-button-small">Tourism</p>
+            <p class="uk-button uk-button-small">Food</p>
+            <p class="uk-button uk-button-small">Travel</p>
+            <p class="uk-button uk-button-small">Writing</p>
+            <p class="uk-button uk-button-small">Movies</p>
+            <p class="uk-button uk-button-small">Music</p>
+            <p class="uk-button uk-button-small">Sport</p>
+        </div>
+        <hr />
+    </header>
+
+    <section class="uk-container">
+        <main>
+            <!-- List of top articles or products -->
+            
+            <h3 class="uk-text-bold">Top stories</h3>
+            <div uk-slider="center: true">
+
+                <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1">
+            
+                    <ul class="uk-slider-items uk-child-width-1-3@s uk-grid-match" uk-grid="">
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_1.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">Learning and growing</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_2.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">I'm a woman, so what ?</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_3.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">How can fashion change the future ?</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_4.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">Lessons from living in a community</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_5.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">You should respect nature</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default" style="box-shadow: none;">
+                                <div class="uk-cover-container">
+                                    <img src="./img/article_7.webp" alt="" uk-cover="">
+                                    <canvas width="150" height="200"></canvas>
+                                </div>
+                                <div class="uk-card-body" style="padding: 20px; margin: 0">
+                                    <h4 class="uk-text-bold">The power of our stories</h4>
+                                    <p class="uk-text-meta">Written by @sam</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            
+                </div>
+            
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            
+            </div>
+
+            <section class="uk-section">
+                <h3 class="uk-text-bold">Story of the day</h3>
+                <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-small uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./img/article_14.webp" alt="" uk-cover>
+                        <canvas width="500" height="300"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="padding: 20px">
+                            <h1 class="uk-text-bold">A guide to Vegan alimentation</h1>
+                            <hr />
+                            <div class="uk-flex-left uk-grid-small" uk-grid="">
+                                <p><span style="background-color: black; color: white;" class="uk-margin-small uk-label">food</span></p>
+                                <p><span style="background-color: black; color: white;" class="uk-margin-small uk-label">vegan</span></p>
+                                <p><span style="background-color: black; color: white;" class="uk-margin-small uk-label">health</span></p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Officiis, assumenda? Architecto odit deleniti dolorem sequi
+                                amet dolorum voluptate facere mollitia quo, numquam similique,
+                                sint, asperiores a ratione iure placeat vitae...
+                            </p>
+                            <p><button class="uk-button">Read more</button></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="uk-section">
+                <h3 class="uk-text-bold">Our suggestions</h3>
+
+                <div class="uk-grid-small uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid="">
+                    
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_8.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">The meaning of life</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #society</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_9.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">She was ill</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #society</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_10.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">The greatest artist ever</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #music</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_11.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">The story of the twins sisters</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #society</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_12.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">Reading 50 books a year</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #education</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="box-shadow: none" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                            <div class="uk-card-media-left uk-cover-container">
+                                <img src="./img/article_13.webp" alt="" uk-cover>
+                                <canvas width="30" height="150"></canvas>
+                            </div>
+                            <div>
+                                <div class="uk-card-body" style="padding: 20px">
+                                    <p class="uk-text-bold">A day without discrimination</p>
+                                    <p class="uk-text-meta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <p class="uk-text-meta">By @sam in #society</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <p class="uk-text-center"><a href="#" class="uk-button uk-button-text">See more</a></p>
+            </section>
+        </main>
+    </section>
+
+    <section class="uk-section uk-section-muted">
+        <div class="uk-container">
+            <h3 class="uk-text-bold uk-padding-small">Follow us for more stories</h3>
+            <div class="uk-padding-small">
+                <input type="email" class="uk-input" placeholder="Ex: john.doe@example.com" />
+                <input type="button" value="Follow" class="uk-margin-small uk-button uk-button-secondary">
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 10px;" class="uk-padding">
+        <div class="uk-flex-center" uk-grid="">
+            <p><a href="#">About us</a></p>
+            <p><a href="#">Help</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">Terms</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+    </footer>
+    <p class="uk-text-center">Built by <a href="https://github.com/imhassane" target="_blank">@imhassane</a></p>
+
+    <!-- UIKIT Modal -->
+    <div style="margin: 0; padding: 0" id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+            <button class="uk-modal-close-full" type="button" uk-close></button>
+            <form class="uk-search uk-search-large">
+                <input class="uk-search-input uk-text-center" type="search" placeholder="Search..." autofocus>
+            </form>
+        </div>
+    </div>
+    
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
+</body>
+</html>
