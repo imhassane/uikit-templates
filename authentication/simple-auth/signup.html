@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registering page with UIKIT</title>
+    <link rel="stylesheet" href="./css/uikit.min.css">
+</head>
+<body style="min-height: 100vh;">
+
+    <div  class="uk-margin-top uk-width-1-3@m uk-margin-auto uk-card uk-card-default uk-card-body">
+        <form class="" action="#">
+
+            <h1 class="uk-text-bold uk-text-lead uk-margin">
+                Join us!
+            </h1>
+
+            <div class="uk-margin">
+                <label class="uk-text-bold" for="username">Enter your username</label>
+                <input type="text" id="username" class="uk-input" placeholder="Ex: john_doe" />
+                <p class="uk-margin-remove">
+                    <small class="uk-text-danger">The username should not be empty</small>
+                </p>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-text-bold" for="password">Enter your password</label>
+                <input type="password" id="password" class="uk-input" placeholder="********" />
+                <p class="uk-margin-remove">
+                    <small class="uk-text-muted">The password should contain 8 characters</small>
+                </p>
+            </div>
+
+            <div class="uk-margin">
+                <button type="submit" class="uk-button">Join us</button>
+            </div>
+
+            <p>
+                <a href="./index.html" class="uk-button uk-button-small uk-button-text uk-margin">Log in</a>
+            </p>
+
+        </form>
+    </div>
+    
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
+</body>
+</html>

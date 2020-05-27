@@ -6,13 +6,20 @@
     <title>Article</title>
     <link rel="stylesheet" href="./css/uikit.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        p {
+            font-size: 1.1em;
+            line-height: 30px;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <div class="uk-flex-between uk-padding-small" uk-grid="">
             <div class="uk-width-1-1@s uk-width-1-4@m">
-                <h3 class="uk-text-bold">Starter theme</h3>
+                <h3 class="uk-text-bold"><a href="./index.html">Starter theme</a></h3>
             </div>
             <div class="uk-child-with-1-4@m" uk-grid="">
                 <p><a class="" href="#modal-full" uk-search-icon uk-toggle></a></p>
@@ -24,23 +31,23 @@
         </div>
         <hr />
         <div style="margin: auto;" class="uk-width-1-2@m uk-width-1-1@s uk-margin-small uk-flex-center">
-            <p class="uk-button uk-button-small">Animals</p>
-            <p class="uk-button uk-button-small">Tourism</p>
-            <p class="uk-button uk-button-small">Food</p>
-            <p class="uk-button uk-button-small">Travel</p>
-            <p class="uk-button uk-button-small">Writing</p>
-            <p class="uk-button uk-button-small">Movies</p>
-            <p class="uk-button uk-button-small">Music</p>
-            <p class="uk-button uk-button-small">Sport</p>
+            <a href="./category.html" class="uk-button uk-button-small">Animals</a>
+            <a href="./category.html" class="uk-button uk-button-small">Tourism</a>
+            <a href="./category.html" class="uk-button uk-button-small">Food</a>
+            <a href="./category.html" class="uk-button uk-button-small">Travel</a>
+            <a href="./category.html" class="uk-button uk-button-small">Writing</a>
+            <a href="./category.html" class="uk-button uk-button-small">Movies</a>
+            <a href="./category.html" class="uk-button uk-button-small">Music</a>
+            <a href="./category.html" class="uk-button uk-button-small">Sport</a>
         </div>
         <hr />
     </header>
 
     <section>
         <main>
-            <div class="uk-padding uk-width-4-5@m uk-width-1-1@s" style="margin: auto;">
+            <div class="uk-padding uk-width-3-5@m uk-width-1-1@s" style="margin: auto;">
                 <h1 class="uk-text-bold">The truth about the burning forests in Australia</h1>
-                <p class="uk-text-meta">Written by @sam in <span class="uk-label">#nature</span></p>
+                <p class="uk-text-meta">Written by @sam on May 1st, 2020</p>
                 <p class="uk-text-bold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque elementum, leo a consectetur congue, diam dolor malesuada urna,
@@ -49,13 +56,14 @@
                     urna vestibulum sed. Mauris a tincidunt mi, id aliquet mi.
                 </p>
             </div>
-            <div class="uk-cover-container">
-                <canvas width="500" height="500"></canvas>
-                <img src="./img/article_15.webp" alt="" uk-cover>
+            <div class="uk-padding-small uk-width-3-5@m uk-width-1-1@s" style="margin: auto;">
+                <div class="uk-cover-container">
+                    <canvas width="200" height="400"></canvas>
+                    <img src="./img/article_15.webp" alt="" uk-cover>
+                </div>
             </div>
-            
-            <div class="uk-padding uk-padding-large uk-width-4-5@m uk-width-1-1@s" style="margin: auto;">    
-                <p class="">
+            <div class="uk-padding uk-padding-large uk-width-3-5@m uk-width-1-1@s" style="margin: auto;">    
+                <p>
                     Sed eget turpis in tortor fringilla aliquet.
                     Sed blandit ut risus sit amet suscipit.
                     Proin lobortis elit eget pellentesque maximus. Curabitur posuere nulla non tellus ultrices,
@@ -87,6 +95,20 @@
                     Ut ultricies purus et dolor facilisis hendrerit.
                 </p>
             </div>
+            <div class="uk-padding-small uk-width-3-5@m uk-width-1-1@s" style="margin: auto;">
+                <ul class="uk-flex-left uk-grid-small" style="list-style: none;" uk-grid="">
+                    <li>
+                        <span class="uk-label" style="padding: 5px; background-color:#f2f2f2; color: gray;">Nature</span>
+                    </li>
+                    <li>
+                        <span class="uk-label" style="padding: 5px; background-color:#f2f2f2; color: gray;">Society</span>
+                    </li>
+                    <li>
+                        <span class="uk-label" style="padding: 5px; background-color:#f2f2f2; color: gray;">Education</span>
+                    </li>
+                </ul>
+            </div>
+            <hr class="uk-divider-icon"/>
         </main>
     </section>
 
